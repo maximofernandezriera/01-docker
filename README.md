@@ -8,6 +8,8 @@
 4. Crea un contenedor demonio con un servidor nginx, usando la imagen oficial de nginx. Al crear el contenedor, ¿has tenido que indicar algún comando para que lo ejecute? Accede al navegador web y comprueba que el servidor esta funcionando. Muestra los logs del contenedor.
 5. Crea un contenedor con la aplicación Nextcloud, mirando la [documentación en docker Hub](https://hub.docker.com/_/nextcloud), para personalizar el nombre de la base de datos sqlite que va a utilizar.
 
+Sube y documenta, sin abusar de las IAs, en este mismo repositorio los pantallazos que consideres relevantes en cada uno de los cinco puntos anteriores.
+
 ## Parte B
 
 Vamos a entregar el ejercicio 4 con algunas modificaciones. Crearemos un contenedor demonio a partir de la imagen `nginx`, el contenedor se debe llamar `servidor_web` y se debe acceder a él utilizando el puerto 8181 del ordenador donde tengas instalado docker.
